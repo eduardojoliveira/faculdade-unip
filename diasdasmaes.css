@@ -1,0 +1,77 @@
+#banner1{
+	width:100%;
+
+}
+
+strong{
+	color: red;
+	font-size:150%;	
+}
+
+p{
+	color:#000000;
+	font-family:arial;
+	font-size:20;
+	text-align:justify;
+	text-indent: 50px;
+}
+
+h1{
+	font-size: 35px;
+	font-family: sans-serif;
+	text-align: center;
+	color:red;
+}
+
+h3{
+	font-size: 28px;
+	font-family: sans-serif;
+	text-align: left;
+
+}
+#menu{
+	width:996px;
+	height:auto;
+	background:black;
+}
+
+ul{
+	font-size:100%;
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+	overflow:hidden;	
+}
+
+li{
+	float:left;
+	display: inline;
+}
+
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 4em;
+	text-decoration:none;
+}
+
+li a:hover {
+	background-color:red;
+}
+
+ol{
+	font-size:18px;
+	font-family: times new roman;
+}
+
+button{
+	padding:10px 8px;
+	width:60px;
+	color:white;
+	background: #2099;
+	border-radius: 1px solid 5px;
+	text-align: center;
+	user-select: none;
+	cursor: pointer;
+}
