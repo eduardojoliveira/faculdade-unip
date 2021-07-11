@@ -1,0 +1,140 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<title>Construção</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="const.css">
+	</head>
+	<head>
+		<div id="geral">
+		<h1>Construçõe's</h1>
+		<legend>Trazendo o melhor para seus lares</legend>
+		<div class="menu">
+                   <nav> 
+                       <ul> 
+                           <li><a href="#Inicio" class="scroll">Inicio</a></li>
+                           <li>/</li>
+                           <li><a href="#Produtos" class="scroll">Produtos</a></li>
+                           <li>/</li>
+                           <li><a href="#Serviços" class="scroll">Serviços</a></li>
+                           <li>/</li>
+                           <li><a href="#Quem Somos" class="scroll">Quem somos</a></li>
+                           <li>/</li>
+                           <li><a href="#Contato" class="scroll">Contato</a></li><li>/</li>
+						   <li><a href="#Endereço" class="scroll">Endereço</a></li>   
+                   </nav>
+               </div>
+			   
+               <div id="conteudo">
+				<div>
+               	<style>
+               		#rel{
+               			text-align: center;
+               			color:#0f0;
+               			font-weight: 30px;
+                    font-size: 18px;
+               			width:130;
+               			background-color: #000;
+                    margin-left: 130px;
+               		}
+               	</style>
+				   <script src="index.js"></script>
+				   
+               <input type="text" id="rel"/>
+			   </div>
+
+           	<div class="const">
+           		<section class="Produtos" id="Produtos">
+           			<div class="Produtos">
+           			<h3>Produtos</h3>
+           				<p>Para Conhecer Sobre Nosso Produtos Clique Neste Botão</p>
+
+           			 <div>
+           			   <a href="produtos.html" target="_blank"><button type="button">Produtos</button></a>
+           			</div>
+           		</div>
+           	 </section>
+           </div>
+
+           <div class="const">
+           	<section class="Serviços" id="Serviços"></section>
+           		<div class="Serviços">
+           			<h3>Nossos Serviços</h3>
+					   
+           				<img src="aten.jpeg" class="rounded float-start" alt="...">
+           				<span>Atendimento especializado para tirar suas duvidas.</span>
+						<img src="truck.jpeg" class="rounded float-end" alt="...">
+						<span>Entrega à domilicio e obras.</span>
+					</div>
+           	</div>
+
+           	<div class="const">
+           		<section class="Quem Somos" id="Quem Somos"></section>
+           			<div class="Quem Somos">
+           				<h3>Quem Somos</h3>
+           					<header>Missão</header>
+           					
+							<p>Nós somos uma empresa que estamos começando buscando primeiramente o reconhecimento, com o objetivo de ir ao topo com nossas locações aos nossos devidos clientes com qualidade e excelencia no atendimento.</p>
+							<header>Visão</header>
+							
+							<p>Ser umas das maiores empresa em destaque na franquia de construção, solucionando as necessidades de atendimento vindo à nós através dos clientes.</p>
+							<header>Valores</header>
+							
+							<ul>
+							    <li>Satisfação total dos nossos clientes</li>
+							    <li>Compromisso com a rede franqueada</li>
+							    <li>Transparência e ética nas relações</li>
+							    <li>Excelência empresarial</li>
+							    <li>Parcerias estratégicas</li>
+							    <li>Respeito aos colaboradores internos</li>
+							    <li>Responsabilidade social</li>
+							</ul>
+						  </div>
+						</div>
+
+           		<div class="const">
+           			<section class="Contato" id="Contato"></section>
+           				<div class="contato">
+           					<form name="meu_form">
+           					<h4>Contate-nos</h4>
+							   
+           					<script>
+           						function Enviar(){
+           							var nome = document.getElementById("nomeid");
+
+           							if (nome.value != ""){
+           								alert('Obrigado sr(a)'+ nome.value+ ' Os seus dados foram encaminhados com sucesso');
+           							}
+
+           						}
+           					</script>
+
+           						<input type="text" id="nomeid" placeholder="Eduardo Jonathan" required="required" name="nome"/>
+           						<label for="nome">Nome</label>
+
+           						<input type="tel" id="foneid" placeholder="(86)99940-3467" name="fone"/>
+           						<label for="fone">Fone</label>
+
+           						<input type="email" id="emailid" placeholder="jonathansilva@gmail.com" name="email"/>
+           						<label for="Email">Email</label>
+
+           						<textarea placeholder="Deixe sua opinião aqui"></textarea>
+
+           						<input type="submit" class="Enviar" onclick="Enviar();" value="Enviar"/>
+           					</form>
+           				 </div>
+           			</div>
+
+			<div id="rodape">
+				<h3>Endereço</h3>
+				<section id="Endereço" id="Endereço"></section>
+				<p>@Copyright2021,loja Construçõe's</p>
+					<img src="tel.jpeg">
+
+
+					</div>
+				  </div>
+				</div>
+			</div>
+     </head>
+</html> 
